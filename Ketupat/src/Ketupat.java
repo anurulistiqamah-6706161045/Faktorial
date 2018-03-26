@@ -9,10 +9,13 @@ public class Ketupat {
 
         for (int i = angka-1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
-                System.out.print(" ");
+                System.out.print("o");
             }
             for (int j = 0; j < mulai; j++) {
                 System.out.print("*");
+            }
+            for (int j = 0; j < i; j++) {
+                System.out.print("o");
             }
             System.out.println();
             if (i != 0) mulai += 2;
@@ -20,10 +23,13 @@ public class Ketupat {
 
         for (int i = 0; i < angka; i++) {
             for (int j = 0; j < i; j++) {
-                System.out.print(" ");
+                System.out.print("o");
             }
             for (int j = 0; j < mulai; j++) {
                 System.out.print("*");
+            }
+            for (int j = 0; j < i; j++) {
+                System.out.print("o");
             }
             System.out.println();
             mulai -= 2;
